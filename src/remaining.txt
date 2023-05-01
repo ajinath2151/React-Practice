@@ -1,0 +1,14 @@
+remaining to do
+1. sleect multiple options from sleect
+2. slider with input field and verticel slider
+3. Input Adornments/textfield
+4. transfer list/inputs
+5. Breadcrumbs/Integration with react-router
+6. Drawer
+7. Stepper
+8. dialog(component created)    //completed
+9. backdrop(not important)
+10. chip (chip array)
+11. list
+12. no ssr(server side rendering) in whatsapp/personal/video link
+13. autocomplete textbox

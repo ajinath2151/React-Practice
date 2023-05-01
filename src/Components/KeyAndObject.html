@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+<script>
+  const myObject={
+    name:"ajinath",
+    age : 28,
+    profession: 'Software Developer',
+    salary :50000
+  }
+
+  // console.log(myObject); // show all values of object with key and values
+  // console.log(myObject.name); // show value of name kay
+
+  //print only keys which is unique
+  Object.keys(myObject).forEach((i)=>{
+    // console.log(i);
+  })  
+  //print only values of myobject object
+  Object.keys(myObject).forEach((i)=>{
+    // console.log(myObject[i]);
+  })  
+
+  //print direct value another method
+  let printObj = Object.values(myObject)
+  // console.log(printObj);
+
+  // entries conside one line of object as one array
+  let objEntries = Object.entries(myObject)
+  console.log(objEntries);
+
+
+
+
+</script>
+
+
+</body>
+</html>
