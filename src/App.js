@@ -57,6 +57,7 @@ import UseEffectDemo from "./concept/UseEffectDemo";
 import UseEffect2 from "./concept/UseEffect2";
 import Carousel from "./concept/Carousel";
 import KeyAndObject02 from "./Components/KeyAndObject02";
+import CarouselOrSlider from "./Components/CarouselOrSlider";
 
 
 function App() {
@@ -119,7 +120,8 @@ function App() {
           {/* <UseEffectDemo /> */}
             {/* <UseEffect2 /> */}
             {/* <Carousel />   */}
-            <KeyAndObject02 />
+            {/* <KeyAndObject02 /> */}
+            <CarouselOrSlider />
         </header>                
       </div>
       
