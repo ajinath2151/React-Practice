@@ -59,6 +59,7 @@ import Carousel from "./concept/Carousel";
 import KeyAndObject02 from "./Components/KeyAndObject02";
 import CarouselOrSlider from "./Components/CarouselOrSlider";
 import UseStateDemo from "./concept/UseStateDemo";
+import UseEffectDemo03 from "./concept/UseEffectDemo03";
 
 
 function App() {
@@ -123,7 +124,8 @@ function App() {
           {/* <Carousel />   */}
           {/* <KeyAndObject02 /> */}
           {/* <CarouselOrSlider /> */}
-          <UseStateDemo />
+          {/* <UseStateDemo /> */}
+          <UseEffectDemo03 />
         {/* </header>                
       </div>       */}
     </>
