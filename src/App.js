@@ -58,15 +58,14 @@ import UseEffect2 from "./concept/UseEffect2";
 import Carousel from "./concept/Carousel";
 import KeyAndObject02 from "./Components/KeyAndObject02";
 import CarouselOrSlider from "./Components/CarouselOrSlider";
-import Carousel02 from "./concept/Carousel02";
-
+import UseStateDemo from "./concept/UseStateDemo";
 
 
 function App() {
   return (
     <>
-      <div className="app">
-        <header className="App-header">
+      {/* <div className="app">
+        <header className="App-header"> */}
           {/* <Router>
         <NavMenuRouter/>
         <Routes>
@@ -120,14 +119,13 @@ function App() {
           {/* <AutocompleteDemoCombobox /> */}
           {/* <ResponsiveMedia /> */}
           {/* <UseEffectDemo /> */}
-            {/* <UseEffect2 /> */}
-            {/* <Carousel />   */}
-            {/* <KeyAndObject02 /> */}
-            {/* <CarouselOrSlider /> */}
-            <Carousel02 />
-        </header>                
-      </div>
-      
+          {/* <UseEffect2 /> */}
+          {/* <Carousel />   */}
+          {/* <KeyAndObject02 /> */}
+          {/* <CarouselOrSlider /> */}
+          <UseStateDemo />
+        {/* </header>                
+      </div>       */}
     </>
   );
 }
