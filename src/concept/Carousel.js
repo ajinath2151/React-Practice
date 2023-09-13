@@ -1,12 +1,12 @@
 //use nuka carousel for carousel/slider in this example
 import { makeStyles } from "@material-ui/core";
-import { NavigateNext } from "@material-ui/icons";
+// import { NavigateNext } from "@material-ui/icons";
 import React from "react";
 import carouselImage1 from "../images/image/carousel1.png";
 import carouselImage2 from "../images/image/carousel2.png";
 import carouselImage3 from "../images/image/carousel3.png";
-import carouselImage4 from "../images/image/carousel4.png";
-import carouselImage5 from "../images/image/carousel5.png";
+// import carouselImage4 from "../images/image/carousel4.png";
+// import carouselImage5 from "../images/image/carousel5.png";
 
 
 const useStyles = makeStyles((theme)=>({

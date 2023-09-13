@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import { useEffect } from 'react'
+
 import UseEffect21 from './UseEffect21';
 function useEffect2() {
 
