@@ -61,6 +61,7 @@ import CarouselOrSlider from "./Components/CarouselOrSlider";
 import UseStateDemo from "./concept/UseStateDemo";
 import UseEffectDemo03 from "./concept/UseEffectDemo03";
 import ListAndKeys from "./concept/ListAndKeys";
+import PureComponentDemo from "./concept/PureComponentDemo";
 
 
 function App() {
@@ -127,7 +128,8 @@ function App() {
           {/* <CarouselOrSlider /> */}
           {/* <UseStateDemo /> */}
           {/* <UseEffectDemo03 /> */}
-          <ListAndKeys />
+          {/* <ListAndKeys /> */}
+          <PureComponentDemo />
         {/* </header>                
       </div>       */}
     </>
