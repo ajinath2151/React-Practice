@@ -63,6 +63,7 @@ import UseEffectDemo03 from "./concept/UseEffectDemo03";
 import ListAndKeys from "./concept/ListAndKeys";
 import PureComponentDemo from "./concept/PureComponentDemo";
 import ParentProps from "./concept/parentToChildProps/ParentProps";
+import ParentComponents from "./concept/childToParentProps/ParentComponents";
 
 
 function App() {
@@ -131,7 +132,8 @@ function App() {
           {/* <UseEffectDemo03 /> */}
           {/* <ListAndKeys /> */}
           {/* <PureComponentDemo /> */}
-          <ParentProps />
+          {/* <ParentProps /> */}
+          <ParentComponents />
         {/* </header>                
       </div>       */}
     </>
