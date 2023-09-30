@@ -65,6 +65,7 @@ import PureComponentDemo from "./concept/PureComponentDemo";
 import ParentProps from "./concept/parentToChildProps/ParentProps";
 import ParentComponents from "./concept/childToParentProps/ParentComponents";
 import FormDemo from "./concept/FormDemo";
+import MultiRadio from "./concept/MultiRadio";
 
 
 function App() {
@@ -135,7 +136,8 @@ function App() {
           {/* <PureComponentDemo /> */}
           {/* <ParentProps /> */}
           {/* <ParentComponents /> */}
-          <FormDemo />
+          {/* <FormDemo /> */}
+          <MultiRadio />
         {/* </header>                
       </div>       */}
     </>
