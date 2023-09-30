@@ -64,6 +64,7 @@ import ListAndKeys from "./concept/ListAndKeys";
 import PureComponentDemo from "./concept/PureComponentDemo";
 import ParentProps from "./concept/parentToChildProps/ParentProps";
 import ParentComponents from "./concept/childToParentProps/ParentComponents";
+import FormDemo from "./concept/FormDemo";
 
 
 function App() {
@@ -133,7 +134,8 @@ function App() {
           {/* <ListAndKeys /> */}
           {/* <PureComponentDemo /> */}
           {/* <ParentProps /> */}
-          <ParentComponents />
+          {/* <ParentComponents /> */}
+          <FormDemo />
         {/* </header>                
       </div>       */}
     </>
