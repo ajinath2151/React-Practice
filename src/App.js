@@ -66,6 +66,7 @@ import ParentProps from "./concept/parentToChildProps/ParentProps";
 import ParentComponents from "./concept/childToParentProps/ParentComponents";
 import FormDemo from "./concept/FormDemo";
 import MultiRadio from "./concept/MultiRadio";
+import APIexample1 from "./api/APIexample1";
 
 
 function App() {
@@ -137,7 +138,8 @@ function App() {
           {/* <ParentProps /> */}
           {/* <ParentComponents /> */}
           {/* <FormDemo /> */}
-          <MultiRadio />
+          {/* <MultiRadio /> */}
+          <APIexample1 />
         {/* </header>                
       </div>       */}
     </>

@@ -28,7 +28,7 @@ const MultiRadio = () => {
         </label>
         </div>
         <div class="form-check">
-        <input class="form-check-input" type="radio" name="yesNoRadio" id="flexRadioDefault2" />
+        <input class="form-check-input" type="radio" name=" yesNoRadio" id="flexRadioDefault2" />
         <label class="form-check-label" for="flexRadioDefault2">
             No
         </label>
