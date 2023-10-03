@@ -67,6 +67,10 @@ import ParentComponents from "./concept/childToParentProps/ParentComponents";
 import FormDemo from "./concept/FormDemo";
 import MultiRadio from "./concept/MultiRadio";
 import APIexample1 from "./api/APIexample1";
+import Click from "./concept/Events/Click";
+import ChangeInInput from "./concept/Events/ChangeInInput";
+import KeyDown from "./concept/Events/KeyDown";
+import Focus from "./concept/Events/Focus";
 
 
 function App() {
@@ -139,7 +143,13 @@ function App() {
           {/* <ParentComponents /> */}
           {/* <FormDemo /> */}
           {/* <MultiRadio /> */}
-          <APIexample1 />
+          {/* <Click /> */}
+          {/* <ChangeInInput /> */}
+          {/* <KeyDown /> */}
+          <Focus />
+
+          {/* <APIexample1 /> */}
+
         {/* </header>                
       </div>       */}
     </>
