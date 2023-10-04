@@ -71,6 +71,8 @@ import Click from "./concept/Events/Click";
 import ChangeInInput from "./concept/Events/ChangeInInput";
 import KeyDown from "./concept/Events/KeyDown";
 import Focus from "./concept/Events/Focus";
+import Copy from "./concept/Events/Copy";
+import Invalid from "./concept/Events/Invalid";
 
 
 function App() {
@@ -146,7 +148,9 @@ function App() {
           {/* <Click /> */}
           {/* <ChangeInInput /> */}
           {/* <KeyDown /> */}
-          <Focus />
+          {/* <Focus /> */}
+          {/* <Copy /> */}
+          {/* <Invalid />  */}
 
           {/* <APIexample1 /> */}
 
