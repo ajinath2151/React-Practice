@@ -73,6 +73,8 @@ import KeyDown from "./concept/Events/KeyDown";
 import Focus from "./concept/Events/Focus";
 import Copy from "./concept/Events/Copy";
 import Invalid from "./concept/Events/Invalid";
+import APIexample2 from "./api/APIexample2";
+import APIexample3 from "./api/APIexample3";
 
 
 function App() {
@@ -153,6 +155,8 @@ function App() {
           {/* <Invalid />  */}
 
           {/* <APIexample1 /> */}
+          {/* <APIexample2 /> */}
+          <APIexample3 />
 
         {/* </header>                
       </div>       */}
