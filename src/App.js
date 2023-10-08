@@ -75,6 +75,8 @@ import Copy from "./concept/Events/Copy";
 import Invalid from "./concept/Events/Invalid";
 import APIexample2 from "./api/APIexample2";
 import APIexample3 from "./api/APIexample3";
+import APIexample4 from "./api/APIexample4";
+import APIexample5 from "./api/APIexample5";
 
 
 function App() {
@@ -156,7 +158,9 @@ function App() {
 
           {/* <APIexample1 /> */}
           {/* <APIexample2 /> */}
-          <APIexample3 />
+          {/* <APIexample3 /> */}
+          <APIexample4 />
+          {/* <APIexample5 /> */}
 
         {/* </header>                
       </div>       */}
