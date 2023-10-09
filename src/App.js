@@ -77,6 +77,9 @@ import APIexample2 from "./api/APIexample2";
 import APIexample3 from "./api/APIexample3";
 import APIexample4 from "./api/APIexample4";
 import APIexample5 from "./api/APIexample5";
+import APIexample6 from "./api/APIexample6";
+import APIexample7 from "./api/APIexample7";
+import APIexample8 from "./api/APIexample8";
 
 
 function App() {
@@ -159,8 +162,11 @@ function App() {
           {/* <APIexample1 /> */}
           {/* <APIexample2 /> */}
           {/* <APIexample3 /> */}
-          <APIexample4 />
+          {/* <APIexample4 /> */}
           {/* <APIexample5 /> */}
+          {/* <APIexample6 /> */}
+          {/* <APIexample7 /> */}
+          <APIexample8 />
 
         {/* </header>                
       </div>       */}
