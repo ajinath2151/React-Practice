@@ -82,6 +82,7 @@ import APIexample7 from "./api/APIexample7";
 import APIexample8 from "./api/APIexample8";
 import APIusingAxios from "./api/APIusingAxios";
 import APIusingAxios2 from "./api/APIusingAxios2";
+import EnterTextUnableToPaste from "./logical/EnterTextUnableToPaste";
 
 
 function App() {
@@ -170,7 +171,8 @@ function App() {
           {/* <APIexample7 /> */}
           {/* <APIexample8 /> */}
           {/* <APIusingAxios /> */}
-          <APIusingAxios2 />
+          {/* <APIusingAxios2 /> */}
+          <EnterTextUnableToPaste />
 
         {/* </header>                
       </div>       */}
