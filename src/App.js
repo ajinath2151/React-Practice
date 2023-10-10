@@ -80,6 +80,8 @@ import APIexample5 from "./api/APIexample5";
 import APIexample6 from "./api/APIexample6";
 import APIexample7 from "./api/APIexample7";
 import APIexample8 from "./api/APIexample8";
+import APIusingAxios from "./api/APIusingAxios";
+import APIusingAxios2 from "./api/APIusingAxios2";
 
 
 function App() {
@@ -166,7 +168,9 @@ function App() {
           {/* <APIexample5 /> */}
           {/* <APIexample6 /> */}
           {/* <APIexample7 /> */}
-          <APIexample8 />
+          {/* <APIexample8 /> */}
+          {/* <APIusingAxios /> */}
+          <APIusingAxios2 />
 
         {/* </header>                
       </div>       */}
