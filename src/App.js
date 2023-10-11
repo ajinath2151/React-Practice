@@ -83,6 +83,7 @@ import APIexample8 from "./api/APIexample8";
 import APIusingAxios from "./api/APIusingAxios";
 import APIusingAxios2 from "./api/APIusingAxios2";
 import EnterTextUnableToPaste from "./logical/EnterTextUnableToPaste";
+import OwnAPIcall from "./api/OwnAPIcall";
 
 
 function App() {
@@ -172,8 +173,8 @@ function App() {
           {/* <APIexample8 /> */}
           {/* <APIusingAxios /> */}
           {/* <APIusingAxios2 /> */}
-          <EnterTextUnableToPaste />
-
+          {/* <EnterTextUnableToPaste /> */}
+          <OwnAPIcall />
         {/* </header>                
       </div>       */}
     </>

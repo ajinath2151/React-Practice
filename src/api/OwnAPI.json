@@ -1,0 +1,23 @@
+  [
+  {
+    "name":"ajinath",
+    "mobile" : 9922245153,
+    "alternateMobile" :null,
+    "fatherContact":"",
+    "isRegular":true
+  },
+  {
+    "name":"Vikas",
+    "mobile" : 8888783402,
+    "alternateMobile" :8888783403,
+    "fatherContact":8888783404,
+    "isRegular":false
+  },
+  { 
+    "name":"amol",
+    "mobile" : 99752565,
+    "alternateMobile" :"",
+    "fatherContact":9975884585,
+    "isRegular":true
+  } 
+]
