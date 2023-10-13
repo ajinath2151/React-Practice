@@ -84,6 +84,7 @@ import APIusingAxios from "./api/APIusingAxios";
 import APIusingAxios2 from "./api/APIusingAxios2";
 import EnterTextUnableToPaste from "./logical/EnterTextUnableToPaste";
 import OwnAPIcall from "./api/OwnAPIcall";
+import Goal from "./concept/conditional rendering/Goal";
 
 
 function App() {
@@ -174,7 +175,9 @@ function App() {
           {/* <APIusingAxios /> */}
           {/* <APIusingAxios2 /> */}
           {/* <EnterTextUnableToPaste /> */}
-          <OwnAPIcall />
+          {/* <OwnAPIcall /> */}
+
+          <Goal />
         {/* </header>                
       </div>       */}
     </>
