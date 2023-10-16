@@ -85,6 +85,10 @@ import APIusingAxios2 from "./api/APIusingAxios2";
 import EnterTextUnableToPaste from "./logical/EnterTextUnableToPaste";
 import OwnAPIcall from "./api/OwnAPIcall";
 import Goal from "./concept/conditional rendering/Goal";
+import InlineStyling from "./concept/css styling/InlineStyling";
+import CSSStylesheetOrExternalStyling from "./concept/css styling/CSSStylesheetOrExternalStyling";
+import ModuleStyle from "./concept/css styling/ModuleStyle";
+import StyledComponent from "./concept/css styling/StyledComponent";
 
 
 function App() {
@@ -176,8 +180,12 @@ function App() {
           {/* <APIusingAxios2 /> */}
           {/* <EnterTextUnableToPaste /> */}
           {/* <OwnAPIcall /> */}
+          {/* <Goal /> */}
+          {/* <InlineStyling /> */}
+          {/* <CSSStylesheetOrExternalStyling /> */}
+          {/* <ModuleStyle /> */}
+          <StyledComponent />
 
-          <Goal />
         {/* </header>                
       </div>       */}
     </>
