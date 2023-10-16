@@ -89,6 +89,7 @@ import InlineStyling from "./concept/css styling/InlineStyling";
 import CSSStylesheetOrExternalStyling from "./concept/css styling/CSSStylesheetOrExternalStyling";
 import ModuleStyle from "./concept/css styling/ModuleStyle";
 import StyledComponent from "./concept/css styling/StyledComponent";
+import ReactBootstrapExample from "./ReactBootstrapExample";
 
 
 function App() {
@@ -184,8 +185,8 @@ function App() {
           {/* <InlineStyling /> */}
           {/* <CSSStylesheetOrExternalStyling /> */}
           {/* <ModuleStyle /> */}
-          <StyledComponent />
-
+          {/* <StyledComponent /> */}
+          <ReactBootstrapExample />
         {/* </header>                
       </div>       */}
     </>
