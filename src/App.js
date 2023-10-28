@@ -90,6 +90,8 @@ import CSSStylesheetOrExternalStyling from "./concept/css styling/CSSStylesheetO
 import ModuleStyle from "./concept/css styling/ModuleStyle";
 import StyledComponent from "./concept/css styling/StyledComponent";
 import ReactBootstrapExample from "./ReactBootstrapExample";
+import APIusingAxios03 from "./api/APIusingAxios03";
+import APIusingAxios04 from "./api/APIusingAxios04";
 
 
 function App() {
@@ -186,7 +188,9 @@ function App() {
           {/* <CSSStylesheetOrExternalStyling /> */}
           {/* <ModuleStyle /> */}
           {/* <StyledComponent /> */}
-          <ReactBootstrapExample />
+          {/* <ReactBootstrapExample /> */}
+          {/* <APIusingAxios03 /> */}
+          <APIusingAxios04 />
         {/* </header>                
       </div>       */}
     </>
