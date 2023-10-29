@@ -92,6 +92,8 @@ import StyledComponent from "./concept/css styling/StyledComponent";
 import ReactBootstrapExample from "./ReactBootstrapExample";
 import APIusingAxios03 from "./api/APIusingAxios03";
 import APIusingAxios04 from "./api/APIusingAxios04";
+import HOC1 from "./concept/HigherOrderComponent/HOCExample01";
+import HOCExample01 from "./concept/HigherOrderComponent/HOCExample01";
 
 
 function App() {
@@ -190,7 +192,8 @@ function App() {
           {/* <StyledComponent /> */}
           {/* <ReactBootstrapExample /> */}
           {/* <APIusingAxios03 /> */}
-          <APIusingAxios04 />
+          {/* <APIusingAxios04 /> */}
+          <HOCExample01 />
         {/* </header>                
       </div>       */}
     </>
