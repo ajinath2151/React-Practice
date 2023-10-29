@@ -94,6 +94,7 @@ import APIusingAxios03 from "./api/APIusingAxios03";
 import APIusingAxios04 from "./api/APIusingAxios04";
 import HOC1 from "./concept/HigherOrderComponent/HOCExample01";
 import HOCExample01 from "./concept/HigherOrderComponent/HOCExample01";
+import HOCExample02 from "./concept/HigherOrderComponent/HOCExample02";
 
 
 function App() {
@@ -193,7 +194,8 @@ function App() {
           {/* <ReactBootstrapExample /> */}
           {/* <APIusingAxios03 /> */}
           {/* <APIusingAxios04 /> */}
-          <HOCExample01 />
+          {/* <HOCExample01 /> */}
+          <HOCExample02 />
         {/* </header>                
       </div>       */}
     </>
