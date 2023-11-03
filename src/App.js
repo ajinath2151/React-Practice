@@ -96,6 +96,7 @@ import HOC1 from "./concept/HigherOrderComponent/HOCExample01";
 import HOCExample01 from "./concept/HigherOrderComponent/HOCExample01";
 import HOCExample02 from "./concept/HigherOrderComponent/HOCExample02";
 import HOCExample03 from "./concept/HigherOrderComponent/HOCExample03";
+import APIusingAxios05 from "./api/APIusingAxios05";
 
 
 function App() {
@@ -197,7 +198,8 @@ function App() {
           {/* <APIusingAxios04 /> */}
           {/* <HOCExample01 /> */}
           {/* <HOCExample02 /> */}
-          <HOCExample03 />
+          {/* <HOCExample03 /> */}
+          <APIusingAxios05 />
         {/* </header>                
       </div>       */}
     </>
