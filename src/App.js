@@ -97,6 +97,7 @@ import HOCExample01 from "./concept/HigherOrderComponent/HOCExample01";
 import HOCExample02 from "./concept/HigherOrderComponent/HOCExample02";
 import HOCExample03 from "./concept/HigherOrderComponent/HOCExample03";
 import APIusingAxios05 from "./api/APIusingAxios05";
+import StyleMUI from "./MUI practice/StyleMUI";
 
 
 function App() {
@@ -199,7 +200,8 @@ function App() {
           {/* <HOCExample01 /> */}
           {/* <HOCExample02 /> */}
           {/* <HOCExample03 /> */}
-          <APIusingAxios05 />
+          {/* <APIusingAxios05 /> */}
+          <StyleMUI />
         {/* </header>                
       </div>       */}
     </>
