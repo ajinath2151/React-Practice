@@ -98,6 +98,7 @@ import HOCExample02 from "./concept/HigherOrderComponent/HOCExample02";
 import HOCExample03 from "./concept/HigherOrderComponent/HOCExample03";
 import APIusingAxios05 from "./api/APIusingAxios05";
 import StyleMUI from "./MUI practice/StyleMUI";
+import FirstAnimation from "./concept/animation/FirstAnimation";
 
 
 function App() {
@@ -201,7 +202,8 @@ function App() {
           {/* <HOCExample02 /> */}
           {/* <HOCExample03 /> */}
           {/* <APIusingAxios05 /> */}
-          <StyleMUI />
+          {/* <StyleMUI /> */}
+          <FirstAnimation />
         {/* </header>                
       </div>       */}
     </>
