@@ -100,6 +100,7 @@ import APIusingAxios05 from "./api/APIusingAxios05";
 import StyleMUI from "./MUI practice/StyleMUI";
 import FirstAnimation from "./concept/animation/FirstAnimation";
 import CountryWiseStateSelection from "./concept/CountryWiseStateSelection";
+import AnimationExample02 from "./concept/animation/AnimationExample02";
 
 
 function App() {
@@ -205,7 +206,9 @@ function App() {
           {/* <APIusingAxios05 /> */}
           {/* <StyleMUI /> */}
           {/* <FirstAnimation /> */}
-          <CountryWiseStateSelection />
+          <AnimationExample02 />
+          {/* <CountryWiseStateSelection /> */}
+
         {/* </header>                
       </div>       */}
     </>

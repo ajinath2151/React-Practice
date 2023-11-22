@@ -5,8 +5,8 @@ import countryData from '../concept/CountryData.json';
 const CountryWiseStateSelection = () => {
 
   const [countryId, setCountryId] = useState('');
-  const [state, setState] = useState([]);
   const [stateId, setStateId] = useState('');
+  const [state, setState] = useState([]);
 
 const handleCountry = (e)=>{
   const getCountryId = e.target.value;
@@ -34,8 +34,8 @@ const handleCountry = (e)=>{
                   >
                     <option value="">Select Country</option>
                     {
-                      countryData.map((getCountry,index)=>(
-                        <option value={getCountry.countryId} key={index}>{getCountry.countryName}</option>
+                      countryData.map((getCountryItem,index)=>(
+                        <option value={getCountryItem.countryId} key={index}>{getCountryItem.countryName}</option>
                       ))
                     }                    
                   </Form.Select>
@@ -50,8 +50,8 @@ const handleCountry = (e)=>{
                   >
                     <option value="">Select State</option>
                     {
-                      state.map((getState,index)=>(
-                        <option value={getState.stateId} key={index}>{getState.stateName}</option>
+                      state.map((getStateItem,index)=>(
+                        <option value={getStateItem.stateId} key={index}>{getStateItem.stateName}</option>
 
                       ))
                     }                    
@@ -72,4 +72,3 @@ const handleCountry = (e)=>{
 };
 
 export default CountryWiseStateSelection;
-// ref video - https://www.youtube.com/watch?v=ddDFgH42kSg
