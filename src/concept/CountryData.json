@@ -1,0 +1,14 @@
+[
+    {"countryId":"1","shortName":"IN", "countryName":"India", "States":[
+        {"stateId":"1","stateName":"Maharashtra","countryId":"1"},
+        {"stateId":"2","stateName":"Goa","countryId":"1"}
+    ]},
+    {"countryId":"2","shortName":"PK", "countryName":"Pakistan", "States":[
+        {"stateId":"3","stateName":"Balochistan","countryId":"2"},
+        {"stateId":"4","stateName":"Sindh ","countryId":"2"}
+    ]},
+    {"countryId":"3","shortName":"RS", "countryName":"Russia", "States":[
+        {"stateId":"5","stateName":"russia state 1","countryId":"3"},
+        {"stateId":"6","stateName":"russia state 2","countryId":"3"}
+    ]}
+]
