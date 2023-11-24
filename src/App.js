@@ -101,6 +101,7 @@ import StyleMUI from "./MUI practice/StyleMUI";
 import FirstAnimation from "./concept/animation/FirstAnimation";
 import CountryWiseStateSelection from "./concept/CountryWiseStateSelection";
 import AnimationExample02 from "./concept/animation/AnimationExample02";
+import EmailVerification from "./Components/EmailVerification";
 
 
 function App() {
@@ -206,9 +207,9 @@ function App() {
           {/* <APIusingAxios05 /> */}
           {/* <StyleMUI /> */}
           {/* <FirstAnimation /> */}
-          <AnimationExample02 />
+          {/* <AnimationExample02 /> */}
           {/* <CountryWiseStateSelection /> */}
-
+          <EmailVerification />
         {/* </header>                
       </div>       */}
     </>
