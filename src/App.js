@@ -101,7 +101,9 @@ import StyleMUI from "./MUI practice/StyleMUI";
 import FirstAnimation from "./concept/animation/FirstAnimation";
 import CountryWiseStateSelection from "./concept/CountryWiseStateSelection";
 import AnimationExample02 from "./concept/animation/AnimationExample02";
-import EmailVerification from "./Components/EmailVerification";
+import DatePickerExample from "./Components/DatePickerExample";
+
+
 
 
 function App() {
@@ -209,9 +211,12 @@ function App() {
           {/* <FirstAnimation /> */}
           {/* <AnimationExample02 /> */}
           {/* <CountryWiseStateSelection /> */}
-          <EmailVerification />
-        {/* </header>                
-      </div>       */}
+
+        {/* </header> 
+      </div>       
+      */}
+        <DatePickerExample />
+
     </>
   );
 }
