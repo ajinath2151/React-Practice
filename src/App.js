@@ -102,6 +102,7 @@ import FirstAnimation from "./concept/animation/FirstAnimation";
 import CountryWiseStateSelection from "./concept/CountryWiseStateSelection";
 import AnimationExample02 from "./concept/animation/AnimationExample02";
 import DatePickerExample from "./Components/DatePickerExample";
+import LocaitonDemo from "./Components/LocaitonDemo";
 
 
 
@@ -215,7 +216,8 @@ function App() {
         {/* </header> 
       </div>       
       */}
-        <DatePickerExample />
+        {/* <DatePickerExample /> */}
+        <LocaitonDemo />
 
     </>
   );
