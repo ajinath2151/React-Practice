@@ -55,7 +55,7 @@ import AutocompleteDemoCombobox from "./Components/AutocompleteCombobox";
 import ResponsiveMedia from "./Components/ResponsiveMedia";
 import UseEffectDemo from "./concept/UseEffectDemo";
 import UseEffect2 from "./concept/UseEffect2";
-import Carousel from "./concept/Carousel";
+// import Carousel from "./concept/Carousel";
 import KeyAndObject02 from "./Components/KeyAndObject02";
 import CarouselOrSlider from "./Components/CarouselOrSlider";
 import UseStateDemo from "./concept/UseStateDemo";
@@ -103,11 +103,18 @@ import CountryWiseStateSelection from "./concept/CountryWiseStateSelection";
 import AnimationExample02 from "./concept/animation/AnimationExample02";
 import DatePickerExample from "./Components/DatePickerExample";
 import LocaitonDemo from "./Components/LocaitonDemo";
+import Carousel from "./concept/carousel/Carousel";
 
 
 
 
 function App() {
+  const carouselItems = [
+    { image: './concept/carousel/img/DavidSmith.png', text: 'First Image' },
+    { image: './concept/carousel/img/DavidSmith.png', text: 'second Image' },
+    { image: './concept/carousel/img/DavidSmith.png', text: 'third Image' },    
+    // Add more items as needed
+  ];
   return (
     <>
       {/* <div className="app">
@@ -217,7 +224,8 @@ function App() {
       </div>       
       */}
         {/* <DatePickerExample /> */}
-        <LocaitonDemo />
+        {/* <LocaitonDemo /> */}
+        <Carousel items={carouselItems} />
 
     </>
   );
