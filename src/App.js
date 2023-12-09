@@ -104,6 +104,7 @@ import AnimationExample02 from "./concept/animation/AnimationExample02";
 import DatePickerExample from "./Components/DatePickerExample";
 import LocaitonDemo from "./Components/LocaitonDemo";
 import Carousel from "./concept/carousel/Carousel";
+import MobileVerificaiton from "./Components/MobileVerificaiton";
 
 
 
@@ -225,7 +226,8 @@ function App() {
       */}
         {/* <DatePickerExample /> */}
         {/* <LocaitonDemo /> */}
-        <Carousel items={carouselItems} />
+        {/* <Carousel items={carouselItems} /> */}
+        <MobileVerificaiton />
 
     </>
   );
