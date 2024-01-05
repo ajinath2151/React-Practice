@@ -105,6 +105,7 @@ import DatePickerExample from "./Components/DatePickerExample";
 import LocaitonDemo from "./Components/LocaitonDemo";
 import Carousel from "./concept/carousel/Carousel";
 import MobileVerificaiton from "./Components/MobileVerificaiton";
+import ParentComponents02 from "./concept/childToParentProps/ParentComponents02";
 
 
 
@@ -227,7 +228,8 @@ function App() {
         {/* <DatePickerExample /> */}
         {/* <LocaitonDemo /> */}
         {/* <Carousel items={carouselItems} /> */}
-        <MobileVerificaiton />
+        {/* <MobileVerificaiton /> */}
+        <ParentComponents02 />
 
     </>
   );

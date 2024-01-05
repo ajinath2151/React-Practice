@@ -1,11 +1,11 @@
-import { Button, colors, makeStyles } from '@mui/material'
+// import { Button, colors, makeStyles } from '@mui/material'
 import React from 'react'
 
 const StyleMUI = () => {
     
   return (
     <div>
-        <Button sx={{
+        {/* <Button sx={{
                 background: 'orangered',
                 width: '137px',
                 color: 'white',
@@ -15,7 +15,7 @@ const StyleMUI = () => {
                 margin: '30px',
             }} variant="text">Text</Button>
         <Button variant="contained">Contained</Button>
-        <Button variant="outlined">Outlined</Button>
+        <Button variant="outlined">Outlined</Button> */}
     </div>
   )
 }
