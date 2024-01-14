@@ -14,7 +14,7 @@ const UseStateDemo1 = () => {
       <button className="blue" value="blue" onClick={handleColor}>Blue</button>
       <button className="green" value="green" onClick={handleColor}>Green</button>
       <button className="orangered" value="orangered" onClick={handleColor}>orangered</button>
-      <h1>this is the {color} color </h1>      
+      <h1 style={{color:color}}>this is the {color} color </h1>      
     </div>
   )
 }
