@@ -106,7 +106,9 @@ import LocaitonDemo from "./Components/LocaitonDemo";
 import Carousel from "./concept/carousel/Carousel";
 import MobileVerificaiton from "./Components/MobileVerificaiton";
 import ParentComponents02 from "./concept/childToParentProps/ParentComponents02";
-import UseStateDemo1 from "./UseStateDemo1";
+// import UseEffectDemo from "./Components/UseEffectDemo";
+import UseStateDemo1 from "./Components/UseStateDemo1";
+import UseEffectDemo02 from "./Components/UseEffectDemo02";
 
 
 
@@ -231,7 +233,8 @@ function App() {
         {/* <Carousel items={carouselItems} /> */}
         {/* <MobileVerificaiton /> */}
         {/* <ParentComponents02 /> */}
-        <UseStateDemo1 />
+        {/* <UseStateDemo1 /> */}
+        <UseEffectDemo02 />
 
     </>
   );
