@@ -110,6 +110,7 @@ import ParentComponents02 from "./concept/childToParentProps/ParentComponents02"
 import UseStateDemo1 from "./Components/UseStateDemo1";
 import UseEffectDemo02 from "./Components/UseEffectDemo02";
 import UseEffect03 from "./Components/UseEffect03";
+import UseContextDemo01 from "./Components/UseContextDemo01";
 
 
 
@@ -236,7 +237,8 @@ function App() {
         {/* <ParentComponents02 /> */}
         {/* <UseStateDemo1 /> */}
         {/* <UseEffectDemo02 /> */}
-        <UseEffect03 />
+        {/* <UseEffect03 /> */}
+        <UseContextDemo01 />  
 
     </>
   );
