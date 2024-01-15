@@ -109,6 +109,7 @@ import ParentComponents02 from "./concept/childToParentProps/ParentComponents02"
 // import UseEffectDemo from "./Components/UseEffectDemo";
 import UseStateDemo1 from "./Components/UseStateDemo1";
 import UseEffectDemo02 from "./Components/UseEffectDemo02";
+import UseEffect03 from "./Components/UseEffect03";
 
 
 
@@ -234,7 +235,8 @@ function App() {
         {/* <MobileVerificaiton /> */}
         {/* <ParentComponents02 /> */}
         {/* <UseStateDemo1 /> */}
-        <UseEffectDemo02 />
+        {/* <UseEffectDemo02 /> */}
+        <UseEffect03 />
 
     </>
   );

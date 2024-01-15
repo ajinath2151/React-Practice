@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-:root {
+/* :root {
   --dark: #1d1d1d;
   --grey-dark: #414141;
   --light: #fff;
@@ -21,7 +21,7 @@
   --red: #c82736;
   --orange: #e77614;
   accent-color: var(--green);
-}
+} */
 
 /* colors */
 
@@ -279,7 +279,7 @@
     linear-gradient(90deg, #ff7600, #ff7600);
 }
 
-.red {
+/* .red {
   background-color: #c82736;
   background-image: radial-gradient(
       circle at 19% 90%,
@@ -338,9 +338,9 @@
       transparent 100%
     ),
     linear-gradient(90deg, #e53949, #cc2232);
-}
+} */
 
-.purple {
+/* .purple {
   background-color: #8d3dae;
   background-image: radial-gradient(
       circle at 47% 14%,
@@ -453,7 +453,7 @@
       transparent 100%
     ),
     linear-gradient(90deg, #28a92b, #10a614);
-}
+} */
 
 button {
   display: inline-block;
@@ -482,7 +482,7 @@ button {
   line-height: 18px;
 }
 
-button:hover {
+/* button:hover {
   background: var(--green-light);
   background-image: linear-gradient(to bottom, #57a818, #4d9916);
   -webkit-box-shadow: 0px 1px 0px fefefe;
@@ -490,7 +490,7 @@ button:hover {
   box-shadow: 0px 1px 0px fefefe;
   color: #ffffff;
   text-decoration: none;
-}
+} */
 
 html,
 body {
