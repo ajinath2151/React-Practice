@@ -111,6 +111,7 @@ import UseStateDemo1 from "./Components/UseStateDemo1";
 import UseEffectDemo02 from "./Components/UseEffectDemo02";
 import UseEffect03 from "./Components/UseEffect03";
 import UseContextDemo01 from "./Components/UseContextDemo01";
+import UseContextDemo02 from "./Components/UseContextDemo02";
 
 
 
@@ -238,7 +239,8 @@ function App() {
         {/* <UseStateDemo1 /> */}
         {/* <UseEffectDemo02 /> */}
         {/* <UseEffect03 /> */}
-        <UseContextDemo01 />  
+        {/* <UseContextDemo01 />   */}
+        <UseContextDemo02 />
 
     </>
   );
