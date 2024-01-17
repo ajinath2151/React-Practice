@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 
-const UseRef_avoidReRendering = () => {
+const UseRefDemo01 = () => {
 
 
     let inputRef = useRef(0);
@@ -35,4 +35,4 @@ const UseRef_avoidReRendering = () => {
   )
 }
 
-export default UseRef_avoidReRendering
+export default UseRefDemo01

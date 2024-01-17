@@ -112,7 +112,8 @@ import UseEffectDemo02 from "./Components/UseEffectDemo02";
 import UseEffect03 from "./Components/UseEffect03";
 import UseContextDemo01 from "./Components/UseContextDemo01";
 import UseContextDemo02 from "./Components/UseContextDemo02";
-import UseRef_avoidReRendering from "./Components/UseRef_avoidReRendering";
+import UseRefDemo01 from "./Components/UseRefDemo01";
+import UseRefDemo02 from "./Components/UseRefDemo02";
 
 
 
@@ -241,8 +242,9 @@ function App() {
         {/* <UseEffectDemo02 /> */}
         {/* <UseEffect03 /> */}
         {/* <UseContextDemo01 />   */}
-        {/* <UseContextDemo02 /> */}
-        <UseRef_avoidReRendering />
+        {/* <UseContextDemo02 /> */}        
+        {/* <UseRefDemo01 /> */}
+        <UseRefDemo02 />
 
     </>
   );
