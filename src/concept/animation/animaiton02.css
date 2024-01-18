@@ -458,7 +458,7 @@
 button {
   display: inline-block;
   outline: none;
-  border: none;
+  border: 1px solid gray;
   padding: 8px 14px;
   background: var(--light);
   background-image: linear-gradient(
