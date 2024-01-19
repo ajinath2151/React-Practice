@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect ,useState} from "react";
 
 import useTitleCustomHook from "./useTitle";
-// this is child hook for use useTitle hook
+// this is parent hook of use useTitle hook
 const CustomHookDemo01 = () => {
 
   const [count, setCount] = useState(0);
