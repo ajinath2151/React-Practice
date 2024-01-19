@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect ,useState} from "react";
 
-import useTitleCustomHook from "./useTitle";
+import useTitleCustomHook from "./UseTitle";
 // this is child hook for use useTitle hook
 const CustomHookDemo01 = () => {
 
