@@ -116,6 +116,7 @@ import UseRefDemo01 from "./Components/UseRefDemo01";
 import UseRefDemo02 from "./Components/UseRefDemo02";
 import UseMemoDemo01 from "./Components/UseMemoDemo01";
 import CustomHookDemo01 from "./Components/CustomHookDemo01";
+import CustomHookDemo02 from "./Components/CustomHookDemo02";
 
 
 
@@ -248,7 +249,8 @@ function App() {
         {/* <UseRefDemo01 /> */}
         {/* <UseRefDemo02 /> */}
         {/* <UseMemoDemo01 /> */}
-        <CustomHookDemo01 />
+        {/* <CustomHookDemo01 /> */}
+        <CustomHookDemo02 />
 
     </>
   );
