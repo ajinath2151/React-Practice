@@ -118,6 +118,7 @@ import UseMemoDemo01 from "./Components/UseMemoDemo01";
 import CustomHookDemo01 from "./Components/CustomHookDemo01";
 import CustomHookDemo02 from "./Components/CustomHookDemo02";
 import CustomHookDemo03 from "./Components/CustomHookDemo03";
+import UseContextDemo03 from "./Components/UseContextDemo03";
 
 
 
@@ -252,7 +253,8 @@ function App() {
         {/* <UseMemoDemo01 /> */}
         {/* <CustomHookDemo01 /> */}
         {/* <CustomHookDemo02 /> */}
-        <CustomHookDemo03 />
+        {/* <CustomHookDemo03 /> */}
+        <UseContextDemo03 />
 
     </>
   );
