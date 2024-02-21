@@ -119,6 +119,7 @@ import CustomHookDemo01 from "./Components/CustomHookDemo01";
 import CustomHookDemo02 from "./Components/CustomHookDemo02";
 import CustomHookDemo03 from "./Components/CustomHookDemo03";
 import UseContextDemo03 from "./Components/UseContextDemo03";
+import PropDrilling from "./Components/PropDrilling";
 
 
 
@@ -254,7 +255,8 @@ function App() {
         {/* <CustomHookDemo01 /> */}
         {/* <CustomHookDemo02 /> */}
         {/* <CustomHookDemo03 /> */}
-        <UseContextDemo03 />
+        {/* <UseContextDemo03 /> */}
+        <PropDrilling />
 
     </>
   );
