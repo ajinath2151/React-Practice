@@ -123,6 +123,7 @@ import PropDrilling from "./Components/PropDrilling";
 import CustomHookDemo04 from "./Components/CustomHookDemo04";
 import CustomHookDemo05 from "./Components/CustomHookDemo05";
 import PromiseExample from "./Components/PromiseExample";
+import AsynchAwaitDemo from "./Components/AsynchAwaitDemo";
 
 
 
@@ -262,7 +263,8 @@ function App() {
         {/* <PropDrilling /> */}
         {/* <CustomHookDemo04 /> */}
         {/* <CustomHookDemo05 /> */}
-        <PromiseExample />
+        {/* <PromiseExample /> */}
+        <AsynchAwaitDemo />
 
     </>
   );
