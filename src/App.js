@@ -124,6 +124,7 @@ import CustomHookDemo04 from "./Components/CustomHookDemo04";
 import CustomHookDemo05 from "./Components/CustomHookDemo05";
 import PromiseExample from "./Components/PromiseExample";
 import AsynchAwaitDemo from "./Components/AsynchAwaitDemo";
+import ConstructorDemo from "./concept/ConstructorDemo";
 
 
 
@@ -264,7 +265,8 @@ function App() {
         {/* <CustomHookDemo04 /> */}
         {/* <CustomHookDemo05 /> */}
         {/* <PromiseExample /> */}
-        <AsynchAwaitDemo />
+        {/* <AsynchAwaitDemo /> */}
+        <ConstructorDemo />
 
     </>
   );
