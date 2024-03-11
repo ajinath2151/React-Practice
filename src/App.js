@@ -125,6 +125,7 @@ import CustomHookDemo05 from "./Components/CustomHookDemo05";
 import PromiseExample from "./Components/PromiseExample";
 import AsynchAwaitDemo from "./Components/AsynchAwaitDemo";
 import ConstructorDemo from "./concept/ConstructorDemo";
+import APIusingAxios06 from "./api/APIusingAxios06";
 
 
 
@@ -266,7 +267,8 @@ function App() {
         {/* <CustomHookDemo05 /> */}
         {/* <PromiseExample /> */}
         {/* <AsynchAwaitDemo /> */}
-        <ConstructorDemo />
+        {/* <ConstructorDemo /> */}
+        <APIusingAxios06 />
 
     </>
   );
