@@ -127,6 +127,7 @@ import AsynchAwaitDemo from "./Components/AsynchAwaitDemo";
 import ConstructorDemo from "./concept/ConstructorDemo";
 import APIusingAxios06 from "./api/APIusingAxios06";
 import PromiseDemo from "./Components/PromiseDemo";
+import AsyncAwaitExample from "./AsyncAwaitExample";
 
 
 
@@ -270,7 +271,8 @@ function App() {
         {/* <AsynchAwaitDemo /> */}
         {/* <ConstructorDemo /> */}
         {/* <APIusingAxios06 /> */}
-        <PromiseDemo />
+        {/* <PromiseDemo /> */}
+        <AsyncAwaitExample />
 
     </>
   );
