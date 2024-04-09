@@ -97,7 +97,7 @@ import HOCExample01 from "./concept/HigherOrderComponent/HOCExample01";
 import HOCExample02 from "./concept/HigherOrderComponent/HOCExample02";
 import HOCExample03 from "./concept/HigherOrderComponent/HOCExample03";
 import APIusingAxios05 from "./api/APIusingAxios05";
-import StyleMUI from "./MUI practice/StyleMUI";
+
 import FirstAnimation from "./concept/animation/FirstAnimation";
 import CountryWiseStateSelection from "./concept/CountryWiseStateSelection";
 import AnimationExample02 from "./concept/animation/AnimationExample02";
@@ -128,6 +128,8 @@ import ConstructorDemo from "./concept/ConstructorDemo";
 import APIusingAxios06 from "./api/APIusingAxios06";
 import PromiseDemo from "./Components/PromiseDemo";
 import AsyncAwaitExample from "./AsyncAwaitExample";
+import DigitToWordConversion from "./Components/DigitToWordConversion";
+import DetectWhichKeyIsPressed from "./Components/DetectWhichKeyIsPressed";
 
 
 
@@ -239,7 +241,7 @@ function App() {
           {/* <HOCExample02 /> */}
           {/* <HOCExample03 /> */}
           {/* <APIusingAxios05 /> */}
-          {/* <StyleMUI /> */}
+          
           {/* <FirstAnimation /> */}
           {/* <AnimationExample02 /> */}
           {/* <CountryWiseStateSelection /> */}
@@ -272,7 +274,13 @@ function App() {
         {/* <ConstructorDemo /> */}
         {/* <APIusingAxios06 /> */}
         {/* <PromiseDemo /> */}
-        <AsyncAwaitExample />
+        {/* <AsyncAwaitExample /> */}
+
+
+        {/* <DigitToWordConversion /> */}
+
+
+        <DetectWhichKeyIsPressed />        
 
     </>
   );
