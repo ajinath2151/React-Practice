@@ -130,6 +130,7 @@ import PromiseDemo from "./Components/PromiseDemo";
 import AsyncAwaitExample from "./AsyncAwaitExample";
 import DigitToWordConversion from "./Components/DigitToWordConversion";
 import DetectWhichKeyIsPressed from "./Components/DetectWhichKeyIsPressed";
+import ValidationWithNpm from "./Components/ValidationWithNpm";
 
 
 
@@ -280,7 +281,8 @@ function App() {
         {/* <DigitToWordConversion /> */}
 
 
-        <DetectWhichKeyIsPressed />        
+        {/* <DetectWhichKeyIsPressed />  */}
+        <ValidationWithNpm />
 
     </>
   );
