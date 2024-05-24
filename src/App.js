@@ -131,6 +131,7 @@ import AsyncAwaitExample from "./AsyncAwaitExample";
 import DigitToWordConversion from "./Components/DigitToWordConversion";
 import DetectWhichKeyIsPressed from "./Components/DetectWhichKeyIsPressed";
 import ValidationWithNpm from "./Components/ValidationWithNpm";
+import ParentProps1 from "./concept/parentToChildProps/ParentProps1";
 
 
 
@@ -282,7 +283,8 @@ function App() {
 
 
         {/* <DetectWhichKeyIsPressed />  */}
-        <ValidationWithNpm />
+        {/* <ValidationWithNpm /> */}
+        <ParentProps1 />
 
     </>
   );
