@@ -134,6 +134,7 @@ import ValidationWithNpm from "./Components/ValidationWithNpm";
 import ParentProps1 from "./concept/parentToChildProps/ParentProps1";
 import ParentComponents03 from "./concept/childToParentProps/ParentComponents03";
 import ParentComponents04 from "./concept/childToParentProps/ParentComponents04";
+import ParentComponents05 from "./concept/childToParentProps/ParentComponents05";
 
 
 
@@ -288,7 +289,8 @@ function App() {
         {/* <ValidationWithNpm /> */}
         {/* <ParentProps1 /> */}
         {/* <ParentComponents03 /> */}
-        <ParentComponents04 />
+        {/* <ParentComponents04 /> */}
+        <ParentComponents05 />
 
     </>
   );
